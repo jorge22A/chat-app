@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+
+.back-button {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+@media (min-width: 769px) {
+  .back-button {
+    display: none !important;
+  }
+}
